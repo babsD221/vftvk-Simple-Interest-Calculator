@@ -1,4 +1,73 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:#000;}
+h1{color:gray;}
 
 
+.container {
+    width: 70%;
+    height: 80%;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 25px;
+    font-size: 1.2rem;
+}
+
+
+h1 {
+    padding-top: 4%;
+    font-size: 5rem;
+    text-align:  center;
+}
+.values {
+    display: table;
+    margin-left: 30%;
+    border-spacing: 0 2.2rem;
+
+}
+label  {
+    display: table-cell;
+}
+input {
+    display: table-cell;
+    float: left;
+}
+.col2 {
+    display: table-cell;
+}
+select {
+    display: table-cell;
+    float: left;
+}
+.form_part {
+    display: table-row;
+    
+}
+button {
+    display: table-column;
+}
+#result_div {
+    margin-left: 30%;
+    visibility: false;
+}
+.invisible {
+    visibility: hidden;
+}
+
+
+#amount_value {
+    background-color: yellow;
+}
+#interest_value {
+    background-color: yellow;
+}
+#received_amount {
+    background-color: yellow;
+}
+#year_value {
+    background-color: yellow;
+}
+
+
+footer {
+    margin-top: 0;
+    margin-left: 4%;
+}
